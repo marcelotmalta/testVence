@@ -1,0 +1,31 @@
+# .gitignore
+
+# Ambientes virtuais
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+
+# Bases de dados locais
+*.db
+*.sqlite3
+
+# Arquivos temporários
+*.log
+*.bak
+
+# Configurações de IDE
+.vscode/
+.idea/
+
+# Arquivos de sistema
+.DS_Store
+
+# Arquivos de teste
+.pytest_cache/
+htmlcov/
+*.coverage
+
+# Variáveis de ambiente (caso use .env futuramente)
+.env
